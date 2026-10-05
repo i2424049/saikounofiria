@@ -1,74 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="彩光のフィリア" />
     <title>彩光のフィリア</title>
-    <link rel="icon" href="css/image/sinariotuka.png">
+    <link rel="icon" href="css/image/sinariotuka.png" />
 
-
-    <link rel="stylesheet" href="./css/style.css" /><link rel="stylesheet" href="./css/menyu.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menyu.css" />
     <link rel="stylesheet" href="./css/sabumenyu.css" />
 
     <script src="js/submenu.js"></script>
-</head>
+  </head>
 
+  <body>
+    <!---->
+    <header class="fix-01">
+      <button type="button" id="menuIcon" class="menu-icon" aria-expanded="false" aria-controls="drawerMenu">
+        <img id="menuIconImg" src="js/a.png" alt="メニューを開く" />
+      </button>
 
-<body>
-
-
-
-
-
-
-<header>
-
-    <nav>
-
-     <div class="drawer">
-     <!--- いわゆるロゴ ------>
-       <div id="logo"><a href="#">
-       </a></div>
-       <!--- いわゆるロゴ ------>
-
-    <!-- ハンバーガーメニュー部分 -->
-     <!--
-    <div class="Toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-      </div>-->
-     <!-------------- drawer ここまで-->
-
-<header class="fix-01"><a href=""></header>
-
-     <div class="menu">
-      <ul>
-       <li><a href="index.html">Home</a></li>
-       <li><a href="game.html">game</a></li>
-       <li><a href="movie.html">movie</a></li>
-       <li><a href="character.html">character</a></li>
-      </ul>
-     </div>
-
-    </nav>
+      <nav id="drawerMenu" class="menu">
+        <ul>
+          <li><a href="index.html" class="menu-home">Home</a></li>
+          <li><a href="game.html" class="menu-game">GAME</a></li>
+          <li><a href="movie.html" class="menu-movie">MOVIE</a></li>
+          <li><a href="character.html" class="menu-character">CHARACTER</a></li>
+        </ul>
+      </nav>
     </header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/menyu.js"></script>
 
+    <main>
+      <div class="visual">
+        <img src="css/image/title_fullhd.png" alt="彩光のフィリア" />
+      </div>
 
-
-<main>
-<div class="visual">
-<img src="css/image/title_fullhd.png" alt="彩光のフィリア">
-</div>
-
-<div class="main-content">
-<section id="main">
-<h2><span class="sigil">✦</span> STORY <span class="sigil">✦</span> </h2>
-<!--
+      <div class="main-content">
+        <section id="main">
+          <h2>
+            <span class="sigil">✦</span>
+            STORY
+            <span class="sigil">✦</span>
+          </h2>
+          <!--
 <p>.*･ﾟ　.ﾟ･*.</p>
 <p>
 ここは色と魔法の世界。<br/>
@@ -80,108 +56,163 @@
 </p>
 <p>
 .*･ﾟ　.ﾟ･*.</p>-->
-</section>
-  </div>
+        </section>
+      </div>
+    </main>
 
+    <a></a>
 
+    <div class="profile-card self-intro">
+      <p>.*･ﾟ　.ﾟ･*.</p>
+      <p>
+        ここは色と魔法の世界。
+        <br />
+        この世界の人々は皆[赤・青・黄]に
+        <br />
+        分けられ魔法を持って生まれてくる。
+        <br />
+        あなたは魔法学校の図書館司書としての仕事をこなしつつ、
+        <br />
+        裏でとある禁書を守っているのだが、
+        <br />
+        ある日思わぬ事件が起きてしまう……
+        <br />
+      </p>
+      <p>.*･ﾟ　.ﾟ･*.</p>
+    </div>
 
-  </main>
+    <main>
+      <div class="main-content">
+        <section id="main">
+          <h2>
+            <span class="sigil">✦</span>
+            GAME
+            <span class="sigil">✦</span>
+          </h2>
 
-  <a ></a>
+          <div id="game-url">
+            <a href="game.html" class="game-url">
+              <img src="css/image/hon2.png" alt="ゲームへ" class="img-normal" />
+              <img src="css/image/hon1.png" alt="" class="img-hover" />
+            </a>
+          </div>
+        </section>
+      </div>
 
-<div class="profile-card self-intro">
-<p>.*･ﾟ　.ﾟ･*.</p>
-<p>
-ここは色と魔法の世界。<br/>
-この世界の人々は皆[赤・青・黄]に<br/>
-分けられ魔法を持って生まれてくる。<br/>
-あなたは魔法学校の図書館司書としての仕事をこなしつつ、<br/>
-裏でとある禁書を守っているのだが、<br/>
-ある日思わぬ事件が起きてしまう……<br/>
-</p>
-<p>
-.*･ﾟ　.ﾟ･*.</p>
-</div>
+      <div class="main-content">
+        <section id="main">
+          <h2>
+            <span class="sigil">✦</span>
+            MOVIE
+            <span class="sigil">✦</span>
+          </h2>
 
-<main>
+          <iframe
+            width="400"
+            height="225"
+            src="https://www.youtube.com/embed/hUg0dMeMgi0"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </div>
 
-  <div class="main-content">
-<section id="main">
-<h2><span class="sigil">✦</span> GAME <span class="sigil">✦</span> </h2>
+      <div class="main-content">
+        <section id="main">
+          <h2>
+            <span class="sigil">✦</span>
+            CHARACTER
+            <span class="sigil">✦</span>
+          </h2>
 
+          <div class="column01">
+            <a href="PC/char001.html" class="scenario-card">
+              <img src="css/image/pcta/001_2.png" alt="トリアドール" />
+              <p>トリアドール</p>
+            </a>
 
+            <a href="PC/char002.html" class="scenario-card">
+              <img src="css/image/pcta/002_2.png" alt="アジュール" />
+              <p>アジュール</p>
+            </a>
 
-</section>
+            <a href="PC/char003.html" class="scenario-card">
+              <img src="css/image/pcta/003_2.png" alt="カナリ" />
+              <p>カナリ</p>
+            </a>
+            <a href="PC/char004.html" class="scenario-card">
+              <img src="css/image/pcta/004_2.png" alt="スカルラット" />
+              <p>スカルラット</p>
+            </a>
+            <a href="PC/char005.html" class="scenario-card">
+              <img src="css/image/pcta/005_2.png" alt="フォレスタ" />
+              <p>フォレスタ</p>
+            </a>
+            <a href="PC/char006.html" class="scenario-card">
+              <img src="css/image/pcta/006_2.png" alt="アメティスジーヌ" />
+              <p>アメティスジーヌ</p>
+            </a>
+          </div>
+        </section>
+      </div>
 
-
-</div>
-
-  <div class="main-content">
-<section id="main">
-<h2><span class="sigil">✦</span> MOVIE <span class="sigil">✦</span> </h2>
-
-
-
-
-<iframe width="560" height="315" 
-src="https://youtu.be/hUg0dMeMgi0?si=OWo3Qi2XZYn9MjcL" 
-frameborder="0"allow="accelerometer; autoplay; clipboard-write;
-encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
-
-</section>
-
-
-</div>
-
-  <div class="main-content">
-<section id="main">
-<h2><span class="sigil">✦</span> CHARACTER <span class="sigil">✦</span> </h2>
-
-<div class="column01">
-  <a href="PC2/char001.html" class="scenario-card">
-    <img src="css/image/pcta/001_2.png" alt="トリアドール">
-    <p>トリアドール</p>
-  </a>
-
-  <a href="PC2/char002.html" class="scenario-card">
-    <img src="css/image/pcta/002_2.png" alt="アジュール">
-    <p>アジュール</p>
-  </a>
-
-  <a href="PC2/char003.html" class="scenario-card">
-    <img src="css/image/pcta/003_2.png" alt="カナリ">
-        <p>カナリ</p>
-  </a>
-  <a href="PC2/char004.html" class="scenario-card">
-    <img src="css/image/pcta/004_2.png" alt="スカルラット">
-    <p>スカルラット</p>
-  </a>
-  <a href="PC2/char005.html" class="scenario-card">
-    <img src="css/image/pcta/005_2.png" alt="フォレスタ">
-    <p>フォレスタ</p>
-  </a>
-  <a href="PC2/char006.html" class="scenario-card">
-    <img src="css/image/pcta/006_2.png" alt="アメティスジーヌ">
-    <p>アメティスジーヌ</p>
-  </a>
-</div>
-
-
-</section>
-
-
-</div>
-
-
-
-
-</main>
-
+      <div class="main-content">
+        <section id="main">
+          <h2>
+            <span class="sigil">✦</span>
+            STAFF
+            <span class="sigil">✦</span>
+          </h2>
+        </section>
+        <div class="profile-card self-intro">
+          <div class="profile-row">
+            <span class="label">ぷぎゅ</span>
+            <span class="value">
+              総責任者
+              <br />
+              ストーリー
+              <br />
+              立ち絵イラスト
+            </span>
+          </div>
+          <div class="profile-row">
+            <span class="label">こぐま</span>
+            <span class="value">
+              システム開発
+              <br />
+              ＵＩ
+              <br />
+              ポスターデザイン
+            </span>
+          </div>
+          <div class="profile-row">
+            <span class="label">サノリ</span>
+            <span class="value">
+              システム開発
+              <br />
+              動画・アニメーション
+              <br />
+              装飾
+            </span>
+          </div>
+          <div class="profile-row">
+            <span class="label">狐白</span>
+            <span class="value">
+              web制作
+              <br />
+              キャラクターデザイン
+              <br />
+              グッズ監修
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer class="footer">
-        <small></small>
+      <small></small>
     </footer>
-
-</body>
-<script src="js/menyu.js"></script>
+  </body>
+  <script src="js/menyu.js"></script>
 </html>
