@@ -1,157 +1,210 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="狐白のホームページ" />
-    <title>TRPGKohaku</title>
 
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/menyu.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="彩光のフィリア" />
+    <title>彩光のフィリア</title>
+
+
+    <link rel="stylesheet" href="../css/style.css" /><link rel="stylesheet" href="../css/menyu.css" />
     <link rel="stylesheet" href="../css/sabumenyu.css" />
     <link rel="stylesheet" href="pcs.css" />
 
     <script src="../js/submenu.js"></script>
-  </head>
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="drawer">
-          <!--- いわゆるロゴ ------>
-          <div id="logo"><a href="#">Kohakau</a></div>
-          <!--- いわゆるロゴ ------>
 
-          <!-- ハンバーガーメニュー部分 -->
-          <div class="Toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <!-------------- drawer ここまで-->
+<body>
 
-        <div class="menu">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../gm.html">GM</a></li>
-            <li><a href="../pl.html">PC</a></li>
-          </ul>
-        </div>
-      </nav>
+
+
+
+<header>
+    <nav>
+     <div class="drawer">
+
+     
+     <div class="menu">
+      <ul>
+       <li><a href="../index.html">Home</a></li>
+       <li><a href="../gm.html">GM</a></li>
+       <li><a href="../pl.html">PC</a></li>
+      </ul>
+     </div>
+
+
+    </nav>
     </header>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <main>
-      <div class="main-content"></div>
-    </main>
+<main>
+<div class="main-content">
 
-    <!-- キャラクター一覧ページ -->
 
-    <!-- <div class="controls">
-  <button onclick="sortCards('asc')">昇順</button>
-  <button onclick="sortCards('desc')">降順</button>
-</div>-->
 
-    <div class="character-page">
-      <!-- 名前と左右の矢印 -->
-      <div class="character-header">
-        <a href="char006.html" class="nav-arrow">◀</a>
-        <div class="character-name">
-          <ruby>
-            篠崎 凛
-            <rt>しのざき りん</rt>
-          </ruby>
-        </div>
-        <a href="char008.html" class="nav-arrow">▶</a>
-      </div>
 
-      <div class="character-content">
-        <!-- 左側（立ち絵＋セリフ） -->
-        <div class="character-visual">
-          <div class="character-bg">
-            <img src="../css/image/pcta/007_3.png" alt="背景" />
-            <img id="main-standing" src="../css/image/pcta/007_1.png" alt="立ち絵" class="standing" />
-          </div>
-        </div>
+  </div>
 
-        <!-- 右側（情報パネル） -->
-        <div class="character-info">
-          <div class="info-block">
-            <p>
-              出身シナリオ：
-              <br />
-              キルキルイキル
-            </p>
-          </div>
 
-          <div class="profile-box">
-            <div class="profile-row">
-              <span class="profile-label">年齢</span>
-              <span class="profile-value">21</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">性別</span>
-              <span class="profile-value">女</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">身長</span>
-              <span class="profile-value">164</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">職業</span>
-              <span class="profile-value">大学生</span>
-            </div>
-            <div class="profile-row">
-              <span class="profile-label">好物</span>
-              <span class="profile-value">プリン</span>
-            </div>
-          </div>
+  </main>
 
-          <div class="info-block collapsible">
-            <button class="toggle-btn">キャラクターメモ ▼</button>
-            <div class="toggle-content">
-              <p>
-                弟と同棲しているが、弟に自立して欲しい。精神的に。
-                <br />
-                弟の方がストーカー気質でずっと一緒にいる。
-                <br />
-                冷たく弟をあしらうけど、流されることが多い。
-                <br />
 
-                凛は自分を強く見せたい所がある。というのも昔、弟が虐められていたことから、私が強くないといけないという気持ちになってる。
-                <br />
 
-                趣味はフリルの着いた可愛い服を着ることだけど、学生の頃に強がって大人ぽい服を着てたら言いづらくなってしまった。
-                <br />
-                こっそり買おうとしたけど、弟には速攻バレたが、今でもフリルの服は着ずらいから、普段はパンツ姿が多い。
-                ちょっと特別1人でお出かけする時にロリータ服を着ていたりする。
-              </p>
-              <p>「早く自立してくれる？」</p>
-            </div>
-          </div>
-
-          <div class="info-block">
-            <button class="toggle-btn">通過シナリオ ▼</button>
-            <div class="toggle-content">
-              <ul>
-                <li>キルキルイキル</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="color-box">
-            <span class="label">イメージカラー</span>
-            <span class="color-swatch" style="background-color: #ffc107"></span>
-            <span class="color-code">#FFC107</span>
-          </div>
-          <div class="info-block">
-            <a href="https://iachara.com/view/10714662" target="_blank">いあきゃらへ</a>
-          </div>
-        </div>
-      </div>
+<div class="character-page">
+  <!-- 名前と左右の矢印 -->
+  <div class="character-header">
+    <div class="character-name">
+      <ruby>白</ruby>
     </div>
-  </body>
-  <script src="../js/menyu.js"></script>
-  <script src="pcs.js"></script>
+
+  </div>
+
+  <div class="character-content">
+    <!-- 左側（立ち絵＋セリフ） -->
+    <div class="character-visual">
+      <div class="character-bg">
+        <img src="../css/image/pcta/001_3.png" alt="背景">
+        <img id="main-standing" src="../css/image/aicon.png" alt="立ち絵" class="standing">
+      </div>
+
+
+
+    <!-- 右側（情報パネル） -->
+    <div class="character-info">
+
+<div class="profile-card self-intro">
+<p>.*･ﾟ　.ﾟ･*.</p>
+<p>
+これはむかし、あなたが図書館司書となり、白い魔法使いになる前の話。
+あなたが魔法学校の生徒だった時の記憶の話をしよう。
+
+優秀な魔法使いを両親に持つあなたは、両親と周りからの期待を背に魔法学校へ入学した。きっとあの子も両親のように優秀な魔法使いとして成長し、卒業を迎えるのだ。そう言われて育ったのだろう。
+
+ただ、現実はうまくいかない。
+両親の血が流れていようと、関係なかった。
+あなたの成績はすこぶる悪い。
+魔法はうまく使えない、勉強もできない。
+「……くそっ」
+ましてや、あなたを相手にしてくれるような友人もいなかった。
+
+そして、入学早々、あなたはとてつもない劣等感に襲われてしまう。
+それでも、自分のセンスと両親からの血筋を信じてやまないあなたは、死に物狂いで魔法の習得に挑んだ。が、努力は実を結んでくれない。
+
+そんなあなたを飽きずに毎日のように嘲笑いに来ていたのが、前任の図書館司書だった。
+「優秀な魔法使いを両親に持つお前が、その有様かよ」
+「お前さあ、魔法使い向いてないんじゃない…？」
+「なあーーー、俺が魔法教えてやろうかーー？」
+
+どこで練習をしても、どこで勉強をしようと彼は現れた。
+そんなに気に入らないのならば視界に入れなければいいのに。
+そもそも、教師でもない図書館司書がなんでわざわざ…
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+ある、月がきれいな夜だった。
+あなたは図書館の裏で、いつものように魔法の練習をしていた。
+そして、当然彼も現れる。
+今日は一体何を言いに来たのだろうか。
+
+「うわ、今日も懲りずにやってんのかよ…なぁーーー？あきらめの悪いお前に面白いこと教えてやるよ。この話はなあ、ほんの一握りの魔法使いと、魔法学校の校長と、その学校の図書館司書しか知らない話なんだよ。実はなぁ………この学校の図書館には禁書と呼ばれる本があるんだ。その禁書はなぁ…」
+「……禁書？」
+
+あなたはふと思い出す。
+あなたが小さいころ、深夜に両親が仲間と集まって話をしているところをこっそりのぞいたことがあったことを。
+
+父は仲間にこう話していた。
+
+『魔法学校の図書館には、禁書と言われる本が置かれている。そいつは、開くだけで魔法が飛躍的に上達すると言われている』
+
+
+これだ。
+これしかない。
+自分の劣等感を拭ってくれるのは、周りの人間に認めてもらうためには、この本しかない。
+
+あなたは魔法の杖を握りしめて、一気に駆け出した。
+
+
+「……おい！！！待てよ！！！！まだ話は…！！」
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+
+図書館へつながる廊下を走りながらあなたは思う。
+禁書について思い出すことはできたが、一体、禁書は図書館のどこに置かれているのか。
+それこそ、両親や彼の話を最後まで聞くべきだったかもしれない。
+
+真夜中の図書館をあなたは走り回る。
+
+こんな時でも、自分の魔法能力のなさを痛感してしまう。
+
+ここで明かりをつける魔法が使えたらどれほどよかっただろうか…
+簡単な魔法すら使えないあなたを助けてくれるのは、月明かりだけだった。
+
+探索魔法が使えたら…整頓魔法が使えれば…
+いくら探しても禁書は見当たらない。出てくるのはもし、もしのたらればばかり。
+
+「……はぁ…はぁ…おい！！お前待てよ！！まさか、禁書を探してるわけじゃないだろうな！？…ばかか！そんな簡単に見つかるようなところに…はぁ…はぁ…置いてるわけねえだろうが！！！！」
+
+彼の言う通りだ。
+
+でも、それでも、禁書をあきらめることなどできなかった。
+あの本さえあれば。あの本を読めば…！
+
+そんなあなたの希望に答えるように白銀のもやは現れた。
+さらさらとした液体のような、触れたら消える霧のような、ふしぎなもやが足元へまとわりついている。そしてそれは、図書室の一角へ糸のように繋がって、続いている。
+
+まさか….…！！
+あなたはその糸を手繰るように、追いかけた。
+
+「…待てよ！！！どこいくんだって！！」
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+図書館の一室。
+自習室として活用していた部屋からは、あのもやと同じ白銀の光が漏れ出ている。
+
+「…んだよ……これ…！」
+
+あなたは迷わず扉を開けた。
+
+
+机の上には白銀の光をまとった一冊の本が置かれている。
+重厚感のある表紙に、二本のベルトで硬く縛られた分厚い本だ。今までに、図書館でこんな厳重に管理された本を見たことがない。
+
+これだ。この本だ。
+禁書の見た目については全く知らないが、一目見てこの本だとわかった。
+この光り輝く本があの、禁書と呼ばれた本なのだ。
+
+とはいえ、背後が静かだ。
+追いかけてきて、簡単に禁書が見つかるわけがないと騒いでいた彼の声がしない。
+振り返ってみると、部屋の入り口で彼は意識を失ったように眠っていた。
+これも、禁書の力なのだろうか。
+
+よくわからないが、だれも止める人はいなくなった。
+これで、禁書を開くことができる。
+
+本にかけられたベルトをひとつ、ふたつとほどいてゆく
+
+</p>
+<p>
+.*･ﾟ　.ﾟ･*.</p>
+</div>
+
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+<script src="../js/menyu.js"></script>
+<script src="pcs.js"></script>
 </html>
