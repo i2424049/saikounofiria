@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="狐白のホームページ" />
-    <title>TRPGKohaku</title>
-
+    <meta name="description" content="彩光のフィリア" />
+    <title>side：アジュール＆フォレスタ</title>
+    <link rel="icon" href="../css/image/sinariotuka.png">
 
     <link rel="stylesheet" href="../css/style.css" /><link rel="stylesheet" href="../css/menyu.css" />
     <link rel="stylesheet" href="../css/sabumenyu.css" />
@@ -21,20 +21,21 @@
 
 
 
-<header>
-    <nav>
+    <header class="fix-01">
+      <button type="button" id="menuIcon" class="menu-icon" aria-expanded="false" aria-controls="drawerMenu">
+        <img id="menuIconImg" src="../js/a.png" alt="メニューを開く" />
+      </button>
 
-     <div class="menu">
-      <ul>
-       <li><a href="../index.html">Home</a></li>
-       <li><a href="../gm.html">GM</a></li>
-       <li><a href="../pl.html">PC</a></li>
-      </ul>
-     </div>
-    </nav>
+      <nav id="drawerMenu" class="menu">
+        <ul>
+          <li><a href="../index.html" class="menu-home">Home</a></li>
+          <li><a href="../game.html" class="menu-game">GAME</a></li>
+          <li><a href="../index.html#movie" class="menu-movie">MOVIE</a></li>
+          <li><a href="../index.html#character" class="menu-character">CHARACTER</a></li>
+        </ul>
+      </nav>
     </header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <script src="../js/menyu2.js"></script>
 <main>
 <div class="main-content">
 
@@ -47,12 +48,12 @@
   </main>
 
 
-  <!-- キャラクター一覧ページ -->
+
 <div class="character-page">
   <!-- 名前と左右の矢印 -->
   <div class="character-header">
     <div class="character-name">
-      <ruby>フォレスタ</ruby>
+      <ruby>side：アジュール＆フォレスタ</ruby>
     </div>
 
   </div>
@@ -60,10 +61,18 @@
   <div class="character-content">
     <!-- 左側（立ち絵＋セリフ） -->
     <div class="character-visual">
-      <div class="character-bg">
-        <img src="../css/image/pcta/001_3.png" alt="背景">
-        <img id="main-standing" src="../css/image/pcta/005_1.png" alt="立ち絵" class="standing">
-      </div>
+      
+<div class="character-grid">
+  <div class="character-card"><img src="../css/image/pcta/002_4.png" alt="アジュール"></div>
+   <div class="character-card"><img src="../css/image/pcta/005_4.png" alt="フォレスタ"></div>
+  <div class="character-card"><img src="../css/image/pcta/001_4.png" alt="トリアドール"></div>
+  <div class="character-card"><img src="../css/image/pcta/003_4.png" alt="カナリ"></div>
+  <div class="character-card"><img src="../css/image/pcta/004_4.png" alt="スカルラット"></div>
+
+  <div class="character-card"><img src="../css/image/pcta/006_4.png" alt="アメティスジーヌ"></div>
+  <div class="character-card"><img src="../css/image/pcta/007_4.png" alt="ヴァニーユ"></div>
+  <div class="character-card"><img src="../css/image/pcta/008_4.png" alt="あなた"></div>
+</div>
 
 
 
@@ -90,6 +99,7 @@
     </div>
   </div>
 </div>
+
 
 
 

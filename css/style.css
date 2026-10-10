@@ -38,7 +38,7 @@ main {
   text-align: center; /* 中身のテキストやアイコンを中央寄せ */
   /*max-width: 800px;*/
   padding: 20px;
-  min-width: 320px;
+  min-width: 280px;
   font-family: "MS 明朝", serif;
 }
 
@@ -267,3 +267,38 @@ p {
 .game-url:hover .img-normal {
   opacity: 0;
 }
+
+
+.movie {
+  margin-top: 80px;
+  margin: 0;
+  padding: 0;
+  /*display: flex;*/
+  display: 20%;
+  justify-content: center; /* 横中央 */
+  text-align: center; /* 中身のテキストやアイコンを中央寄せ */
+  /*max-width: 800px;*/
+  padding: 20px;
+  min-width: 280px;
+  font-family: "MS 明朝", serif;
+}
+
+.character {
+  margin-top: 80px;
+  margin: 0;
+  padding: 0;
+  /*display: flex;*/
+  display: 20%;
+  justify-content: center; /* 横中央 */
+  text-align: center; /* 中身のテキストやアイコンを中央寄せ */
+  /*max-width: 800px;*/
+  padding: 20px;
+  min-width: 280px;
+  font-family: "MS 明朝", serif;
+}
+
+  @media screen and (max-width: 600px) {
+    .character-grid {
+      grid-template-columns: 1fr;
+    }
+  }

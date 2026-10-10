@@ -262,16 +262,3 @@ min-height: 100%;
     }
   }
 
-/* アコーディオン */
-.toggle-btn {
-  background: none;
-  border: none;
-  font-size: 1em;
-  cursor: pointer;
-  text-align: left;
-  width: 100%;
-}
-.toggle-content {
-  display: none;
-  margin-top: 8px;
-}

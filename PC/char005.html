@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="彩光のフィリア" />
-    <title>彩光のフィリア</title>
-
+    <title>彩光のフィリア：フォレスタ</title>
+    <link rel="icon" href="../css/image/sinariotuka.png">
 
     <link rel="stylesheet" href="../css/style.css" /><link rel="stylesheet" href="../css/menyu.css" />
     <link rel="stylesheet" href="../css/sabumenyu.css" />
@@ -21,23 +21,22 @@
 
 
 
-<header>
-    <nav>
-     <div class="drawer">
+    <header class="fix-01">
+      <button type="button" id="menuIcon" class="menu-icon" aria-expanded="false" aria-controls="drawerMenu">
+        <img id="menuIconImg" src="../js/a.png" alt="メニューを開く" />
+      </button>
 
-
-     <div class="menu">
-      <ul>
-       <li><a href="../index.html">Home</a></li>
-       <li><a href="../gm.html">GM</a></li>
-       <li><a href="../pl.html">PC</a></li>
-      </ul>
-     </div>
-
-
-    </nav>
+      <nav id="drawerMenu" class="menu">
+        <ul>
+          <li><a href="../index.html" class="menu-home">Home</a></li>
+          <li><a href="../game.html" class="menu-game">GAME</a></li>
+          <li><a href="../index.html#movie" class="menu-movie">MOVIE</a></li>
+          <li><a href="../index.html#character" class="menu-character">CHARACTER</a></li>
+        </ul>
+      </nav>
     </header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/menyu2.js"></script>
+
 
 <main>
 <div class="main-content">
@@ -91,25 +90,22 @@
     <div class="character-info">
 
 <div class="profile-box">
-  <div class="profile-row">
-    <span class="profile-label">年齢</span>
-    <span class="profile-value">25</span>
-  </div>
+
   <div class="profile-row">
     <span class="profile-label">性別</span>
     <span class="profile-value">女</span>
   </div>
   <div class="profile-row">
     <span class="profile-label">身長</span>
-    <span class="profile-value">152</span>
+    <span class="profile-value">160</span>
   </div>
   <div class="profile-row">
-    <span class="profile-label">種族</span>
-    <span class="profile-value">アパレル</span>
+    <span class="profile-label">属性</span>
+    <span class="profile-value">green</span>
   </div>
     <div class="profile-row">
-    <span class="profile-label">好物</span>
-    <span class="profile-value">桃のタルト</span>
+    <span class="profile-label">趣味</span>
+    <span class="profile-value">ガーデニング</span>
   </div>
 </div>
 
@@ -118,23 +114,25 @@
       <div class="info-block collapsible">
         <button class="toggle-btn">キャラクターメモ ▼</button>
         <div class="toggle-content">
-          <p>ふわふわしたマイペースな子。<br/>
-          同性の女性に好意を寄せられていることに気が付かずに、過ごしていた。<br/>最近ようやく知って付き合うことになった。<br/>
-        「瑠奈のこと大好きだよ～！」</p>
+          <p>緑の魔法と風を司る妖精。<Br/>
+おっとりとした喋り方をするお姉さん。<Br/>
+風の魔法からは甘い匂いがする。<br/>趣味はガーデニング。
+</p>
         </div>
       </div>
 
 
               <div class="color-box">
     <span class="label">イメージカラー</span>
-    <span class="color-swatch" style="background-color:#FFDBEC;"></span>
-    <span class="color-code">#FFDBEC</span>
+    <span class="color-swatch" style="background-color:#50aa50;"></span>
+    <span class="color-code">#50aa50</span>
+
   </div>
-
+<!--
       <div class="info-block">
-        <a href="../PC2/char005.html" target="_blank">アフターストーリーへ</a>
+        <a href="../PC2/char001.html" target="_blank">アフターストーリーへ</a>
       </div>
-
+-->
 </div>
 
     </div>
